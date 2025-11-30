@@ -23,7 +23,7 @@ class HomeViewBody extends StatelessWidget {
                     mainAxisSize: MainAxisSize.max,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      FeaturedListView(),
+                      FeaturedListView(size: 0.3),
                       SizedBox(height: 50),
                       Text('Best Seller', style: Styles.textStyle24),
                       SizedBox(height: 8),
