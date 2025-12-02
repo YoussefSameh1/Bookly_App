@@ -51,7 +51,7 @@ class BookListViewItem extends StatelessWidget {
                   children: [
                     Text('19.99 €', style: Styles.textStyle20),
                     const Spacer(),
-                    BookRating()
+                    BookRating(),
                   ],
                 ),
               ],

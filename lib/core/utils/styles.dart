@@ -21,6 +21,6 @@ abstract class Styles {
     fontSize: 32,
     fontWeight: FontWeight.bold,
     color: Colors.white,
-    fontFamily: kSectraFont
+    fontFamily: kSectraFont,
   );
 }

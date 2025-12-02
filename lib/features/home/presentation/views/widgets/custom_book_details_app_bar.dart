@@ -9,19 +9,17 @@ class CustomBookDetailsAppBar extends StatelessWidget {
     return Row(
       children: [
         IconButton(
-          icon: Icon(Icons.close,
-          size: 32,),
+          icon: Icon(Icons.close, size: 32),
           onPressed: () {
             GoRouter.of(context).pop();
-          }
+          },
         ),
         const Spacer(),
         IconButton(
-          icon: Icon(Icons.shopping_cart_outlined,
-          size: 32,),
-          onPressed: () {}
+          icon: Icon(Icons.shopping_cart_outlined, size: 32),
+          onPressed: () {},
         ),
-      ]
+      ],
     );
   }
 }
